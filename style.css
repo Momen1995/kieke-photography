@@ -80,5 +80,34 @@ nav > ul > li > a {
 
 footer{
   background-color: #222222;
-  
+}
+
+.line{
+  background-color: #8A47F6;
+  height: 1rem;
+  width: 6rem;
+  border-radius: 30px;
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-left: 8px;
+}
+
+.skill-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.left-skill img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-skill {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .right-skill {
+        text-align: start;
+    }
 }
