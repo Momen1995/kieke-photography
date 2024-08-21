@@ -13,6 +13,10 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+nav{
+  z-index: 99;
+}
+
 nav > ul > li > a {
   color: #333333;
 }
@@ -27,6 +31,10 @@ nav > ul > li > a {
   font-weight: 500;
 }
 
+.text-color{
+  color: #8A47F6;
+}
+
 .hero-section{
   margin-top: 95px;
 }
@@ -34,6 +42,43 @@ nav > ul > li > a {
 .skill-container{
   width: 100%;
   background-color: #e8d9ff;
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   padding: 2rem 6rem;
+}
+
+.price{
+  margin-top: 4rem;
+}
+
+.price-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+  padding: 10px 15px;
+}
+
+.bg-one{
+  background-color: #bfa2ee;
+}
+
+.client-para{
+  font-size: .9rem;
+  text-align: justify;
+}
+
+.client-btn{
+  background-color: #8A47F6;
+  border-radius: 20px;
+}
+
+.icon{
+  border: 1px solid #333333;
+  border-radius: 100%;
+  padding: .2rem .4rem;
+  background-color: transparent;
+}
+
+footer{
+  background-color: #222222;
+  
 }
